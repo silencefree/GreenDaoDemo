@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.carlos.greendaodemo.MainActivity">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="30dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="插入数据库"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="显示数据"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/button3"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="显示Sxl的数据"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_marginTop="50dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+</LinearLayout>
